@@ -1,0 +1,40 @@
+.nav-link{
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* White Navigation bar */
+
+.white-nav-top{
+    padding: 15px 60px 15px 60px;
+    background: white;
+    box-shadow: 0 8px 6px -9px #999;
+    z-index: 2;
+}
+.white-nav-top .nav-link{
+    color: #212226;
+}
+.white-nav-top .nav-link:hover,
+.white-nav-top .nav-link:focus{
+    color: #f4c613;
+}
+.nav-link.current{
+    color: #f4c613;
+    font-weight: 500;
+}
+.white-important{
+    padding: 15px 60px 15px 60px !important;
+    background: white !important;
+    box-shadow: 0 8px 6px -9px #999 !important;
+    z-index: 2;
+}
+.white-important .nav-link{
+    color: #212226 !important;
+}
+.white-important .nav-link:hover,
+.white-important .nav-link:focus{
+    color: #f4c613 !important;
+}

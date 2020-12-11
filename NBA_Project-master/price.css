@@ -1,0 +1,153 @@
+.navbar {
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    padding-right: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 17px;
+    padding-bottom: 12px;
+    box-shadow: 0 8px 6px -9px #999;
+}
+/*
+.fixed-top {
+    position: fixed;
+}
+*/
+.navbar-brand {
+    padding-left: 55px;
+}
+
+.pricing-table {
+    padding: 30px 20px;
+    transition: 400ms;
+    border-radius: 6px;
+}
+
+.pricing-table:hover {
+    background-color: #f4c613;
+}
+
+.pricing-table .type h4 {
+    color: #f4c613;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.price {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 24px 0;
+}
+
+.price h2 {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0 0 0 24px;
+    position: relative;
+}
+
+.price h2 span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price h2 span.dollar {
+    font-size: 18px;
+    font-weight: 100;
+    position: absolute;
+    padding: -55px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+}
+
+.price h2 span.month {
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    left: 5px;
+    bottom: -12px;
+}
+
+.price p {
+    line-height: normal;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.price li {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.price li i {
+    margin-right: 15px;
+}
+
+.btn-yellow {
+    width: 95%;
+    background-color: #f4c613;
+    color: white;
+    border-radius: 25px;
+    padding: 13px;
+}
+
+.pricing-table:hover h4 
+.pricing-table:hover h5,
+.pricing-table:hover h4,
+.pricing-table:hover h2,
+.pricing-table:hover p,
+.pricing-table:hover ul
+{
+    color: white;
+}
+
+.pricing-table:hover .btn-yellow {
+    background: white;
+    color: black;
+}
+
+.pricing-table .btn-yellow:hover {
+    background: black;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.black .type h4{
+    color: white;
+}
+
+.btn-white {
+    width: 95%;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 13px;
+}
+
+.pricing-table .btn-white:hover {
+    background: black;
+    color: white;
+}
+
+footer {
+    background-color: rgba(33, 34, 38, 255); 
+    color: white;
+    margin-top: 120px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer span {
+    color: rgba(244, 198, 19, 255);
+}
